@@ -13,7 +13,8 @@ class Usuario extends Model
     protected $primaryKey = 'id_usuario';
     public $timestamps = false;
 
-    protected $fillable = ['nombre','email','password','rol'];
+    protected $fillable = ['nombre', 'email', 'password'];
+
 
     public function cotizaciones()
     {
